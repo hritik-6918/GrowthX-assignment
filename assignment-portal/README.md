@@ -1,8 +1,8 @@
-### **Assignment Submission Portal**
+## **Assignment Submission Portal**
 
 ## **Description**
 
-- The **Assignment Submission Portal** is a backend system built with **Node.js and MongoDB** that allows users to submit assignments, and admins to accept or reject those assignments. The portal supports user and admin registrations, logins, task submission, and assignment status management.
+The **Assignment Submission Portal** is a backend system built with **Node.js and MongoDB** that allows users to submit assignments, and admins to accept or reject those assignments. The portal supports user and admin registrations, logins, task submission, and assignment status management.
 
 ### **Features**
 
@@ -50,22 +50,22 @@ Make sure you have the following installed on your machine:
 
 - Postman (Optional, for testing the API)
 
-### Project Setup
+## Project Setup
 
-1. ## Clone the repository:
+## Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/assignment-portal.git
+git clone https://github.com/hritik-6918/assignment-portal.git
 cd assignment-portal
 ```
 
-2. ## Install dependencies:
+## Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. ## Configure environment variables:
+## Configure environment variables:
 
 Create a `.env` file in the project root and add the following values:
 
@@ -76,7 +76,7 @@ JWT_SECRET=your_jwt_secret_key
 
 Replace `<username>` and `<password>` with your MongoDB credentials.
 
-4. ## Start the server:
+## Start the server:
 
 ```bash
 npm run start
@@ -122,8 +122,8 @@ assignment-portal/
 
   ```json
   {
-    "name": "Soumik",
-    "email": "soumik@example.com",
+    "name": "Hritik",
+    "email": "hritik@example.com",
     "password": "password123",
     "isAdmin": false
   }
@@ -135,7 +135,7 @@ assignment-portal/
 
   ```json
   {
-    "email": "soumik@example.com",
+    "email": "hritik@example.com",
     "password": "password123"
   }
   ```
@@ -210,7 +210,7 @@ assignment-portal/
       "task": "Complete Hello World program",
       "userId": {
         "_id": "USER_ID",
-        "name": "Soumik"
+        "name": "Hritik"
       },
       "status": "pending",
       "createdAt": "2024-10-13T10:15:03.650Z"
@@ -250,11 +250,11 @@ assignment-portal/
 
 You can use **Postman** to test the various API endpoints. For each request:
 
-1.Use the appropriate HTTP method (POST/GET).
+1. Use the appropriate HTTP method (POST/GET).
 
-2.Provide necessary headers (e.g., JWT token for authenticated routes).
+2. Provide necessary headers (e.g., JWT token for authenticated routes).
 
-3.Send the request body in JSON format (where applicable).
+3. Send the request body in JSON format (where applicable).
 
 ## Future Enhancements
 
